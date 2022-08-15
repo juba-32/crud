@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #222;
+	color: #fff;
+	font-family: sans-serif;
+}
+.cruds{
+	width: 80%;
+	margin: auto;
+	padding: 10px 0;
+}
+.head{
+    text-transform: uppercase;
+    text-align: center;
+}
+input{
+	background-color: #111;
+	color: #fff;
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 30px;
+	margin: 5px 0;
+	border-radius: 10px;
+	padding: 5px;
+}
+input:focus{
+	background-color: #000;
+	transform: scale(1.1);
+
+}
+.prise{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.prise input{
+	width: 19%;
+}
+#total{
+	background-color: blue;
+	padding: 5px 2px;
+	border-radius: 5px;
+}
+#total::before{
+    content: "total: ";
+}
+button{
+	width: 100%;
+	height: 35px;
+	color: white;
+	background: rgba( 6, 61, 125, 0.25 );
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+button:hover{
+	letter-spacing: 1px;
+	transition: 0.5s;
+	background: rgba( 6, 91, 185, 0.25 );
+}
+.btnsearch{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btnsearch button{
+	width: 45%;
+}
+#deletall{
+	margin: 20px 0;
+}
+table{
+     width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+th ,td{
+	padding: 10px;
+}
